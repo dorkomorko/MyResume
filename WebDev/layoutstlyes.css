@@ -1,0 +1,92 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+.common {
+    /*background-color:blanchedalmond;
+    border: solid 2px white;*/
+    position: absolute;
+
+}
+
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 2px rgb(114, 62, 17);
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 40px;
+    z-index: 1;
+    padding-top: 90px;
+    border-right: solid 2px rgb(114, 62, 17);
+    
+}
+
+.mainbody {
+    top: 114px;
+    bottom: 64px;
+    left: 114px;
+    right: 114px;
+    padding-right: 5px;
+}
+
+.rightmenu{
+    top: 114px;
+    bottom: 40px;
+    right: 5px;
+    width: 100px;
+    border-left: solid 2px rgb(114, 62, 17);
+    padding-left: 5px;
+}
+
+.footer {
+    bottom: 5px;
+    height: 10px;
+    left: 5px;
+    right: 5px;
+    font-size: 8px;
+    color:grey;
+    text-align: center;
+    position: fixed;
+}
+
+.subheader {
+    overflow: hidden;
+    float: right;
+}
+
+.video {
+    position: absolute;
+    left: 800px; 
+    top: 175px;   
+    width: 360px;
+}
+
+.img2 {
+    position: absolute;
+    left: 300px;
+    top: 100px;
+
+}
+
+.learn {
+    position: absolute;
+    top: -13px;
+    right: 250px;
+}
+
+.tableauPlaceholder {
+    top: 40px;
+    right: 250px;
+  }
